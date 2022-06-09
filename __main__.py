@@ -79,7 +79,7 @@ if __name__ == "__main__":
     for sess in train_sess:
         train_sess_list.append(path_prefix_train+sess+"/train.tfrecords")
     for sess in test_sess:
-        test_sess_list.append(path_prefix_test+sess+"/test.tfrecords") # self-defined dataset (TfRecord) loader
+        test_sess_list.append(path_prefix_test+sess+"/test.tfrecords")
 
 
     for iter_num in range(len(seeds)):
